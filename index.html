@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>부엉이 우체부 · 인문학의 숲에서 받는 3통의 편지</title>
+<meta name="description" content="흰 부엉이 우체부가 하루 세 통, 옛 사상가와 작가의 편지를 물고 와요. 토스에서 ‘부엉이 우체부’를 검색해 보세요.">
+<meta property="og:title" content="부엉이 우체부">
+<meta property="og:description" content="인문학의 숲에서 받는 3통의 편지">
+<meta property="og:image" content="og/kant.jpg">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#FFF8E6;--paper:#FFFDF6;--ink:#2B2118;--muted:#6B5A45;--line:#F0DFB4;--gold:#A0742A;--btn:#3182F6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1E1A14;--paper:#2A241C;--ink:#F3EADB;--muted:#CDBFA8;--line:#4A3F2E;--gold:#E2B866}}
+:root[data-theme="dark"]{--bg:#1E1A14;--paper:#2A241C;--ink:#F3EADB;--muted:#CDBFA8;--line:#4A3F2E;--gold:#E2B866}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans KR",sans-serif;line-height:1.7;word-break:keep-all}
+.stripe{height:12px;background:repeating-linear-gradient(135deg,#C9423A 0 12px,var(--bg) 12px 19px,#2E4377 19px 31px,var(--bg) 31px 38px)}
+main{max-width:760px;margin:0 auto;padding:48px 16px 64px}
+.hero{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
+.hero img{width:120px;height:120px;border-radius:28px;box-shadow:0 10px 28px rgba(60,40,20,.25)}
+h1{font-family:"Gowun Batang",serif;font-size:clamp(32px,7vw,46px);line-height:1.25}
+.sub{font-size:18px;color:var(--gold);font-weight:700}
+.lead{max-width:560px;color:var(--muted)}
+.go{display:inline-block;margin-top:6px;padding:14px 28px;border-radius:999px;background:var(--btn);color:#fff;font-weight:700;text-decoration:none}
+.shots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:44px 0}
+.shots img{width:100%;border-radius:16px;box-shadow:0 6px 18px rgba(60,40,20,.18)}
+@media (max-width:640px){.shots{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.cards{display:grid;gap:12px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+.card b{display:block;font-size:17px;margin-bottom:2px}
+.card p{color:var(--muted);font-size:15px}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="stripe"></div>
+<main>
+  <section class="hero">
+    <img src="img/logo.webp" alt="부엉이 우체부 로고">
+    <h1>부엉이 우체부</h1>
+    <p class="sub">인문학의 숲에서 받는 3통의 편지</p>
+    <p class="lead">숲속 캠핑장에 흰 부엉이 우체부가 하루 세 통의 편지를 물고 와요. 소크라테스, 공자, 세종, 버지니아 울프처럼 옛 사상가와 작가들이 보낸 편지를 의자에 앉아 읽어 보세요. 하루 3분, 쌓이는 인문학이에요.</p>
+    <p class="go">토스에서 ‘부엉이 우체부’를 검색해 보세요</p>
+  </section>
+  <div class="shots">
+    <img src="img/shot1.webp" alt="숲속 캠핑장 화면">
+    <img src="img/shot2.webp" alt="돌을 받는 화면">
+    <img src="img/shot3.webp" alt="돌 주머니 화면">
+    <img src="img/shot4.webp" alt="편지 화면">
+  </div>
+  <section class="cards">
+    <div class="card"><b>하루 세 통의 편지</b><p>편지마다 그 사람이 실제로 남긴 한 문장이 담겨 있어요. O/X로 내용을 확인하고 답장을 고르면 답장의 답장이 와요.</p></div>
+    <div class="card"><b>그 사람만의 돌</b><p>편지를 끝까지 읽으면 사람마다 다른 특별한 돌을 받아요. 계곡에 던지면 그 사람의 문장이 물 위에 떠올라요.</p></div>
+    <div class="card"><b>부엉이의 질문</b><p>매주 바뀌는 질문에 답하면 나와 닮은 인문학자를 찾아 드려요.</p></div>
+    <div class="card"><b>나만의 숲</b><p>우표가 쌓이면 새 숲이 열리고, 도토리로 의자와 캠핑 소품을 모아 나만의 자리를 꾸며요.</p></div>
+  </section>
+  <footer>부엉이 우체부는 토스 미니앱이에요.</footer>
+</main>
+<div class="stripe"></div>
+</body>
+</html>
